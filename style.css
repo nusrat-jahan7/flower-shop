@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1450px;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@ body {
   align-items: center;
   height: 620px;
   background-color: rgba(229, 84, 115, 0.05);
-  margin: 128px 0px;
+  margin: 128px 0px 0px 0px;
 }
 .sale-text {
   width: 30%;
@@ -80,22 +80,22 @@ body {
 
 /* Feature Section */
 
-.feature-title-section {
+.section-title {
   display: flex;
   justify-content: center;
 }
-.feature-container {
+.section-container {
   width: 30%;
   text-align: center;
-  margin: 178px 0px 48px 0px;
+  margin: 150px 0px 48px 0px;
 }
 .feature-img-section {
   display: flex;
   justify-content: space-around;
 }
 .featured-img {
-  width: 365px;
-  height: 500px;
+  width: 464px;
+  height: 538px;
   position: relative;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
@@ -130,6 +130,42 @@ body {
   color: rgba(39, 39, 39, 0.80);
   font-weight: 600;
   font-size: 24px;
+}
+
+/* Instagram img Section */
+
+.instagram-img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+/* Latest Deals Section */
+
+.deals-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-image: url('Flower Asset/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  border-radius: 8px;
+  margin: 128px 0px;
+}
+.deals-container{
+  text-align: center;
+}
+.input-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.email-btn{
+  background-color: #fff;
 }
 
 /* Footer Section */
